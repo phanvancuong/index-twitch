@@ -1,0 +1,114 @@
+.left{
+	background-color: #000;
+	position: fixed;
+	
+
+}
+.from_singup{
+	width: 100%;
+	background-color: #2c2541;
+	margin-left: 5px;
+	height: 360px;
+	border-radius: 5px;
+	margin-top: 10px;
+	padding-top: 30px;
+
+}
+.from_singup img{
+	width: 100%;
+	margin-bottom: 5px;
+
+}
+.tw-mg-b-1 {
+	margin-top: 15px;
+	height: 20px;
+}
+.tw-mg-b-1 h5{
+	color: #fff;
+	font-size: 16px;
+	font-weight: normal;
+
+}
+.text{
+	border-bottom: 1px solid #222222;
+
+}
+.kenh{
+	width: 107%;
+	height: 50px;
+	
+	padding-top: 6px;
+
+}
+.kenh:hover{
+	background-color: #3A392F;
+}
+.side-nav-card__avatar{
+	width: 30%;
+	float: left;
+	text-align: center;
+}
+.side-nav-card__avatar img{
+	width: 60%;
+	border-radius: 4px;
+}
+.tw-ellipsis{
+	width: 70%;
+	float: left;
+	margin-top: -5px;
+}
+.title{
+	color: #fff;
+
+}
+.detail{
+	color:#898395; 
+	font-size: 14px;
+	margin-top: -5px;
+}
+.col-10{
+	position: absolute;
+	width: 100%;
+	overflow: hidden;
+	box-sizing:border-box;
+}
+.img_card_left{
+	width: 20%;
+	margin-left: -20px;
+	float: left;
+}
+.cardrigth{
+	width: 90%;
+	
+	margin-left: 40px;
+}
+.cardrigth div a h3,.text-col2 a h3{
+	font-size: 14px;
+	text-transform: uppercase;
+	color: black;
+	font-weight: bold;
+}
+.textcard{
+	margin-top: -10px;
+}
+.textcard a{
+	color: black;
+	font-size: 12px;
+}
+.btnta{
+	font-size: 12px !important;
+	font-weight: bold;
+}
+.card{
+	border-width: 0 !important;
+}
+.text-col2{
+	width: 120%;
+	
+	margin-left: -20px;
+	margin-top: -10px;
+}
+.btn-col2{
+	margin-left: -20px;
+	margin-top: 3px;
+}

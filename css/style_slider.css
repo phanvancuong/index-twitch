@@ -1,0 +1,117 @@
+
+
+#carousel {
+  position: relative;
+  height: 400px;
+ 
+  transform: translateY(-30%);
+  overflow: hidden;
+  top: 5%;
+
+  
+}
+#carousel div {
+  position: absolute;
+  transition: transform 1s, left 1s, opacity 1s, z-index 0s;
+  opacity: 1;
+
+}
+#carousel div iframe {
+  width: 500px;
+
+
+  transition: width 1s;
+}
+#carousel div.hideLeft {
+  left: 0%;
+  opacity: 0;
+  transform: translateY(20%) translateX(-50%);
+}
+#carousel div.hideLeft iframe {
+  width: 200px;
+  height: 100px;
+}
+#carousel div.hideRight {
+  left: 100%;
+  opacity: 0;
+  transform: translateY(20%) translateX(-50%);
+}
+#carousel div.hideRight iframe {
+  width: 200px;
+  height: 100px;
+}
+#carousel div.prev {
+  z-index: 5;
+  left: 30%;
+  transform: translateY(20px) translateX(-50%);
+}
+#carousel div.prev iframe {
+  width: 300px;
+  height: 270px;
+}
+#carousel div.prevLeftSecond {
+  z-index: 4;
+  left: 15%;
+  transform: translateY(20%) translateX(-50%);
+  opacity: 0.7;
+}
+#carousel div.prevLeftSecond iframe {
+  width: 200px;
+  height: 200px;
+}
+#carousel div.selected {
+  z-index: 10;
+  left: 50%;
+  transform: translateY(0px) translateX(-50%);
+}
+#carousel div.next {
+  z-index: 5;
+  left: 70%;
+  transform: translateY(20px) translateX(-50%);
+}
+#carousel div.next iframe {
+  width: 300px;
+  height: 270px;
+}
+#carousel div.nextRightSecond {
+  z-index: 4;
+  left: 85%;
+  transform: translateY(20%) translateX(-50%);
+  opacity: 0.7;
+}
+#carousel div.nextRightSecond iframe {
+  width: 200px;
+  height: 200px;
+}
+
+.btnprev {
+  position: absolute;
+  transform: translateX(-50%);
+  
+}
+#prev,#next{
+  color: #4D4D4D;
+  font-size: 40px;
+  font-weight: bold;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  border-width: 0;
+  background-color: #fff;
+
+}
+#prev:hover, #next:hover{
+  background-color: #C7CBD1;
+}
+#prev{
+  float: left;
+  margin-top: -300px;
+  margin-left: 70px;
+
+
+}
+#next{
+  float: right;
+  margin-top: -300px;
+  margin-right: -1115px;
+}
